@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Foldit&display=swap');
+:root {
+  --bs-body-bg: #FCF5EB;
+  --bs-primary-bg-subtle:transparent;
+}
+
+.btn-outline-success {
+  --bs-btn-border-color: gray;
+  --bs-btn-hover-bg: black;
+}
+
+
+h1{
+  padding-left: 530px;
+  font-family: 'Agbalumo';
+}
+h4 {
+  padding-left: 530px;
+  font-family: 'Agbalumo';
+}
+h2{
+  font-family: 'Agbalumo';
+
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h3 {
+  text-align: right;
+  font-family: 'Agbalumo';
+}
+
+.icon-wink {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../imagenes/Siguiente.png);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../imagenes/Anterior.png);
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+}

@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EDIFICIO INFINITY SKY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fachada Frontal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fachada trasra</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid p-0 ">
+    <img src="imagenes/Atras.jpg" class="img-fluid vh-100" alt="Imagen a pantalla completa">
+</div>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2-Segovia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<h1 class="display-1">Infinity Sky</h1>
+
+<h4>Ushuaia, Tierra del Fuego. 9410</h4>
+
+</header>
+
+<section class="col-md-12 text-center">
+  <div class="my-4">
+<h2>Espacios Construidos</h2>
+<h>Edificio de viviendas, oficinas y locales comerciales con 54m2 cubiertos, 38 unidades funcionales de 1, 2, 3 y 4 ambientes</p>
+</div>
+
+<main class="container-md mb-4">
+<div class="row justify-content-center">
+<section class="col-md-9">
+
+    <section class="col-md-6">
+      <a href="imagenes/Maps.jpg" data-lightbox="galeria" data-title="Imagen de google Maps">
+        <img src="imagenes/Maps.jpg" class="img-fluid" alt="Imagen 1">
+      </a>
+  </section>
+
+  <section class="col-md-6 offset-md-7 text-left">
+    <div class="my-4">
+        <h2>Dirección</h2>
+        <h3>Gdor. Ernesto Manuel Campos 1382</h3>
+    </div>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">
+      Responsable a cargo de la construcción
+    </button>
+    
+    <div class="modal" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="miModalLabel"> Dirección, planificación y diseño </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+           Arquitecta Natalia Carolina Zoratto
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Guardar Cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+    <!-- Agregar cuadro de texto con título y subtítulo -->
+    <section class="col-md-12 text-center">
+      <div class="my-4">
+          <h2>Infinity Sky</h2>
+          <p>"Edificio de departamentos y alquileres temporarios con excelentes vistas al Canal de Beagle y montañas."</p>
+      </div>
+  </section>
+
+    <div id="miSlider" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#miSlider" data-bs-slide-to="0" class="active" ></button>
+
+          <button type="button" data-bs-target="#miSlider" data-bs-slide-to="1" ></button>
+       
+        </div> 
+        <div class="carousel-inner border  border-dark">
+          <div class="carousel-item active">
+            <img src="imagenes/IS.jpg" class="d-block w-100" alt="imagen 1">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/IS1.jpeg" class="d-block w-100" alt="imagen 2">
+          </div> 
+         
+        </div> 
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#miSlider" data-bs-slide="Anterior">
+          <span class="carousel-control-prev-icon" ></span>
+          <span class="visually-hidden">Anterior</span>
+        </button> 
+        <button class="carousel-control-next" type="button" data-bs-target="#miSlider" data-bs-slide="Siguiente">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button> 
+      </div> 
+
+</section>
+</div> 
+<div class="row">
+<section class="col-md-4"></section>
+<section class="col-md-5"></section>
+</div> 
+</main> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <div class="container mt-5">
+      <h2>Formulario de Contacto</h2>
+    
+      <form>
+    
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+        </div>
+    
+      
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo Electrónico:</label>
+          <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico">
+        </div>
+    
+        
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Comentarios:</label>
+          <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+    
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>

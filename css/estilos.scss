@@ -1,0 +1,79 @@
+ @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato&display=swap');
+
+
+$tipografia1: 'Lato', sans-serif;
+$tipografia2:  'Agbalumo', sans-serif;
+$color-primario: black;
+
+:root{
+    --bs-body-bg: #fdd8a3;
+    --bs-primary-bg-subtle:transparent;
+   
+   
+  }
+
+
+  .btn-outline-success{
+
+    --bs-btn-border-color: rgb(255, 59, 59);
+    --bs-btn-hover-bg: rgb(255, 175, 175); 
+
+
+  }
+
+
+
+
+  
+
+body {
+font-family: 'Lato';
+
+}
+
+
+
+.carousel-indicators [data-bs-target]{
+
+background-color: $color-primario;
+
+
+}
+
+
+.carousel-caption {
+
+
+    color: $color-primario;
+    background-color: white;
+}
+
+
+.carousel-control-next-icon {
+
+background-image: url(../imagenes/Siguiente.png);
+
+}
+
+
+.carousel-control-prev-icon {
+
+    background-image: url(../imagenes/Anterior.png);
+    
+    }
+
+  
+
+
+
+  
+
+@media (max-width: 768px){
+
+header { height: auto;}
+
+
+
+}
+
+
